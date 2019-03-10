@@ -1,0 +1,4 @@
+parent: default
+label: OroVibe
+logo: bundles/orovibetheme/images/logo.png
+groups: [commerce]

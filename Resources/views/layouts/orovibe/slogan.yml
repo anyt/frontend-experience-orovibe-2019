@@ -1,0 +1,10 @@
+layout:
+    actions:
+        - '@setBlockTheme':
+              themes: slogan.html.twig
+        - '@add':
+              parentId: middle_bar_logo
+              id: slogan
+              blockType: text
+              options:
+                  text: Digital Transformation

@@ -1,0 +1,8 @@
+{% block _product_view_attribute_group_general_attribute_text_sku_widget %}
+    {% set attr = layout_attr_defaults(attr, {
+        '~class': ' sku'
+    }) %}
+    <h2 {{ block('block_attributes') }}>
+        {{ label|trans }}: <span class="sku__code" itemprop="sku">{{ entity.sku|oro_html_strip_tags }}</span>
+    </h2>
+{% endblock %}

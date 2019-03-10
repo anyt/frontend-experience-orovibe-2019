@@ -1,0 +1,7 @@
+styles:
+    inputs:
+        - bundles/orovibetheme/scss/logo.scss
+        - bundles/orovibetheme/scss/product-view.scss
+        - bundles/orovibetheme/scss/settings/_colors.scss
+        - bundles/orovibetheme/scss/settings/_border-radius.scss
+    output: css/layout/orovibe/styles.css

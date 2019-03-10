@@ -1,0 +1,2 @@
+bundles:
+    - { name: OroVibe\ThemeBundle\OroVibeThemeBundle, priority: 1000 }

@@ -1,0 +1,37 @@
+/* @theme: orovibe; */
+
+$theme-color-palette: (
+        'primary': (
+                'main': #2d333b,
+                'base': #8c000a,
+                'light': #c02e37,
+                'dark': #7d0a00
+        ),
+        'secondary': (
+                'main': #7b0723,
+                'base': #dc2608,
+                'light': #7ea6a4,
+                'lighten': #7b092f,
+                'dark': #00be03
+        ),
+        'additional': (
+                'ultra': #fff,
+                'base': #f5f5f5,
+                'light': #ebebeb,
+                'middle': #d1d1d1,
+                'dark': #464645,
+                'darker': #000
+        ),
+        'ui': (
+                'error': #f9caca,
+                'error-dark': #06007a,
+                'success': #d8e4e4,
+                'success-dark': #678684,
+                'warning': #fad6b7,
+                'warning-dark': #785e22,
+                'normal': #4597ca,
+                'focus': #348fc6
+        )
+);
+
+$color-palette: map_merge($color-palette, $theme-color-palette);

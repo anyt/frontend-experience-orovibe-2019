@@ -1,0 +1,11 @@
+{
+  "name": "anyt/orovibe-theme-bundle-2019",
+  "homepage": "https://oroinc.com/b2b-ecommerce/",
+  "license": "OSL-3.0",
+  "autoload": {
+    "psr-4": {"OroVibe\\ThemeBundle\\": ""}
+  },
+  "require": {
+    "oro/commerce": "3.1.*"
+  }
+}

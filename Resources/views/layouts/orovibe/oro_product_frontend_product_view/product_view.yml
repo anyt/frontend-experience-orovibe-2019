@@ -1,0 +1,17 @@
+layout:
+    actions:
+        - '@setBlockTheme':
+              themes: sku.html.twig
+        - '@move':
+              id: product_view_primary_container
+              parentId: page_title_container
+        - '@remove':
+              id: product_view_primary_wrapper
+        - '@setOption':
+              id: product_view_attribute_group_general_attribute_text_sku
+              optionName: attr.class
+              optionValue: page-title
+        - '@setOption':
+              id: product_view_specification_container
+              optionName: visible
+              optionValue: '=context["is_logged_in"]'

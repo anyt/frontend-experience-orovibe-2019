@@ -1,0 +1,10 @@
+.product-view__primary, .product-view__main {
+  float: none;
+  width: 100%;
+}
+
+.sku.page-title {
+  font-style: italic;
+  color: get-color('secondary', 'light');
+  font-size: 20px;
+}
